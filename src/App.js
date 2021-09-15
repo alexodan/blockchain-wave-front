@@ -175,7 +175,10 @@ export default function App() {
               Connect your Ethereum wallet and wave at me!
             </p>
             <p style={{ marginTop: "0px" }}>
-              There is a small chance you win some rinkeby eth doing it 👀
+              There is a small chance you win some rinkeby eth doing it{" "}
+              <span role="img" aria-label="emoji">
+                👀
+              </span>
             </p>
           </div>
 
