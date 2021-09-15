@@ -1,0 +1,105 @@
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.dark .bio {
+  color: lightgray;
+}
+
+.light .bio {
+  color: rgb(20, 20, 20);
+}
+
+.input-message {
+  margin-top: 30px;
+  height: 48px;
+  border-radius: 4px;
+  padding-left: 8px;
+  font-size: 18px;
+}
+
+.dark .input-message {
+  border: white;
+}
+
+.walletButton {
+  cursor: pointer;
+  margin: 0 auto 20px auto;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 20px;
+  padding: 10 20px;
+}
+
+.dark .walletButton {
+  background-color: rgb(40, 40, 40);
+  color: lightgray;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.dark .waveButton {
+  border: 1px solid white;
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+.dark .waveButton:disabled {
+  color: lightgray;
+  cursor: not-allowed;
+}
+
+.wave-message {
+  margin-top: 16px;
+  padding: 8px;
+  background-color: rgb(40, 40, 40);
+  color: lightgray;
+}
